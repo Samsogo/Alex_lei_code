@@ -55,5 +55,3 @@ from k12_plan.teacher_leave_select t4
 group by id
 ) C
 on B.tid = C.id
-
-dasdsadsadsadsdsadsadada
