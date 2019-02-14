@@ -28,4 +28,4 @@ git分支相关命令
 	7.恢复分支		git branch branch_name HEAD{4}
 
 git clone
-	git clone 地址(https://github.com/Samsogo/Alex_lei_code.git) 将远程仓库克隆到本地（）
+	git clone 地址(https://github.com/Samsogo/Alex_lei_code.git) 将远程仓库克隆到本地
