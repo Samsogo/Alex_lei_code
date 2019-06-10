@@ -1,1 +1,0 @@
-https://www.scala-lang.org/api/current/index.html
