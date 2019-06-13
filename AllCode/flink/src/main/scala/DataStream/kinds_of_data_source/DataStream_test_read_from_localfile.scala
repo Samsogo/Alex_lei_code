@@ -1,17 +1,16 @@
-package DataStream
-
+package DataStream.kinds_of_data_source
 
 import org.apache.flink.api.common.accumulators.IntCounter
 import org.apache.flink.streaming.api.scala.StreamExecutionEnvironment
-//import org.apache.flink.api.scala._
+import org.apache.flink.api.scala._
 
 
 
 /**
   * @Author:Alex_lei
-  * @Description: Datastream_demo
+  * @Description: Datastream_demo，data source from localfile
   */
-object DataStream_test {
+object DataStream_test_read_from_localfile {
 
   def main(args: Array[String]): Unit = {
     /**
@@ -36,6 +35,7 @@ object DataStream_test {
       * 因为flink的程序都是懒加载模式，即上述所写的读取外部文件和对数据流的一系列操作只有调用execute方法才会执行
       */
 
+    val numlines = new IntCounter()
     env.execute("test")
   }
 }
